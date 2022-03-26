@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/pages/Home'
+import Civil from './components/pages/Civil';
+import Computer from './components/pages/Computer';
+import Electronics from './components/pages/Electronics';
+import Industrial from './components/pages/Industrial';
+import Signup from './components/pages/Signup';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      <>
+      <Router>
+        <Navbar />
+          <Routes>
+            <Route exact path='/' element={<Home />}/> 
+            <Route path='/Civil' element={<Civil />}/>
+            <Route path='/Computer' element={<Computer />}/>
+            <Route path='/Electronics' element={<Electronics />}/>
+            <Route path='/Industrial' element={<Industrial />}/>
+            <Route path='/Signup' element={<Signup />}/>
+          </Routes>
+      </Router>
+      </>
+    );
 }
 
 export default App;
