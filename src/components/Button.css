@@ -1,5 +1,6 @@
 :root {
-    --primary: rgb(241, 227, 19);
+    /* --primary: rgb(241, 227, 19); */
+    --primary: #DF8549;
     }
     
     .btn {
