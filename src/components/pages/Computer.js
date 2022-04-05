@@ -3,11 +3,9 @@ import '../../App.css';
 
 function Computer() {
     return (
-        <div className="style">
-        <div className="style-text">
+        <div className="computer global">
         Computer Engineering
         </div>
-    </div>
     )
 }
 

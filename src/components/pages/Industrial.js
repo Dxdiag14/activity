@@ -2,11 +2,9 @@ import React from 'react'
 
 function Industrial() {
     return (
-        <div className="style">
-        <div className="style-text">
+        <div className="industrial global">
         Industrial Engineering
         </div>
-    </div>
     )
 }
 

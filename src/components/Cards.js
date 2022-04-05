@@ -14,7 +14,7 @@ function Cards() {
                 src='images/CE.jpg'
                 text='Realize the design and maintainance of roads, bridges, dams, and similar 
                 structures.'
-                label='COD'
+                label='Civil Engineering'
                 path='/Civil'
                 />
                 
@@ -22,7 +22,7 @@ function Cards() {
                 src='images/CPE.jpg'
                 text='Lets integrate several fields of computer science, electrical, and electronics 
                 engineering through computer hardware and softwares'
-                label='COE'
+                label='Computer Engineering'
                 path='/Computer'
                 />
                 </ul>
@@ -31,28 +31,26 @@ function Cards() {
                 <CardItem
                 src='images/ECE.jpg'
                 text='Design electronic equipments that will change the way we do things forever'
-                label='COE'
+                label='Electronics Engineering'
                 path='/Electronics'
-                />
-                
-                <CardItem
-                src='images/CHE.jpg'
-                text='Analyze and design chemical processes to imrpove better materials into useful 
-                energy sources and other needs'
-                label='COD'
-                path='/Signup'
                 />
 
                 <CardItem
                 src='images/IE.jpg'
                 text='Interact with the world of industrial and manufacturing equipments through 
                 technological advance methodology'
-                label='COD'
+                label='Industrial Engineering'
                 path='/Industrial'
                 />
-                
-                
 
+                <CardItem
+                src='images/CHE.jpg'
+                text='Analyze and design chemical processes to imrpove better materials into useful 
+                energy sources and other needs'
+                label='Be a BULSUAN Engineer!'
+                path='/Signup'
+                />
+                
                 </ul>
             </div>
         </div>

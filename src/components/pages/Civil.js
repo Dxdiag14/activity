@@ -2,12 +2,9 @@ import React from 'react';
 import '../../App.css';
 
 function Civil() {
-    
  return (
-    <div className="style">
-        <div className="style-text">
+    <div className="civil global">
         Civil Engineering
-        </div>
     </div>
  );
 }

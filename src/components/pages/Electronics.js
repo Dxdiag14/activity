@@ -2,11 +2,9 @@ import React from 'react'
 
 function Electronics() {
     return (
-        <div className="style">
-        <div className="style-text">
+        <div className="electronics global">
         Electronics Engineering
         </div>
-    </div>
     )
 }
 

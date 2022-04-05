@@ -3,11 +3,9 @@ import '../../App.css';
 
 function Signup() {
     return (
-        <div className="style">
-        <div className="style-text">
+        <div className="signup global">
         Sign-Up
         </div>
-    </div>
     )
 }
 

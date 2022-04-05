@@ -4,13 +4,58 @@
   padding: 0;
 }
 
-.style {
+.global {
   display: flex;
   justify-content: center;
-  margin-top: 250px;
+  align-items: center;
 }
 
-.style-text {
-  color: #000;
-  font-size: 3rem;
-}
+.civil {
+  background-image: url('/images/img1.jpg'); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  height: 90vh;
+  }
+
+  .computer {
+    background-image: url('/images/img2.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    height: 90vh;
+    }
+
+    .electronics {
+      background-image: url('/images/img3.jpg'); 
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #fff;
+      font-size: 100px;
+      height: 90vh;
+      }
+
+      .industrial {
+        background-image: url('/images/img4.jpg'); 
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+        font-size: 100px;
+        height: 90vh;
+        }
+
+        .signup {
+          background-image: url('/images/img5.jpg'); 
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          color: #fff;
+          font-size: 100px;
+          height: 90vh;
+          }
