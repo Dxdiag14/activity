@@ -4,7 +4,7 @@ function Chemical() {
     return (
         <div className="style">
             <div className="style-text">
-            Chemical Engineering
+            Mechanical Engineering
             </div>
         </div>
     )

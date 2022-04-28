@@ -4,7 +4,7 @@ import '../../App.css';
 function Signup() {
     return (
         <div className="signup global">
-        Sign-Up
+        Inquire Now
         </div>
     )
 }

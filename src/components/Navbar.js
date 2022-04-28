@@ -60,7 +60,7 @@ const handleClick = () => setClick(!click);
 
     <li className='nav-item'>
     <Link to='/Industrial' className='nav-links' onClick={closeMobileMenu}>
-    Industrial Engineering
+    Mechanical Engineering
     </Link>
     </li>
 
@@ -71,7 +71,7 @@ const handleClick = () => setClick(!click);
     </li>
     </ul>
     
-    {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+    {button && <Button buttonStyle='btn--outline'>Inquire Now</Button>}
 
     </div>
     </nav>
